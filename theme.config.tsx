@@ -6,7 +6,7 @@ const config: DocsThemeConfig = {
   banner: {
     dismissible: false,
     text: (
-      <a href="https://github.com/AntiTomChickenProject" target="_blank">
+      <a href="https://github.com/ApartTUSITU/AntiTomChickenProject" target="_blank">
         🔔 该网站仍在建设中。您可以在GitHub上给我们提供帮助，任何帮助都会使我们变得更好！（点击前往）
       </a>
     )
@@ -20,7 +20,7 @@ const config: DocsThemeConfig = {
   ),
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – 反张淏轩计划'
+      titleTemplate: '%s – 反Tom_Chicken计划'
     }
   },
   project: {
@@ -34,17 +34,17 @@ const config: DocsThemeConfig = {
   },
   toc: {
     title: <span>目录</span>,
-    extraContent: <span>反张淏轩计划<br />希望能够帮到你 ❤</span>
+    extraContent: <span>反Tom_Chicken计划<br />希望能够帮到你 ❤</span>
   },
   gitTimestamp: null,
-  logo: <><img src={logo.src} alt="logo" style={{ width: '50px', height: '50px' }} /><span>⁣⁣⁣⁣⁣⁣⁣⁣ ⁣⁣⁣⁣ ⁣⁣⁣⁣ ⁣反张淏轩计划</span></>,
+  logo: <><img src={logo.src} alt="logo" style={{ width: '50px', height: '50px' }} /><span>⁣⁣⁣⁣⁣⁣⁣⁣ ⁣⁣⁣⁣ ⁣⁣⁣⁣ ⁣反Tom_Chicken计划</span></>,
   docsRepositoryBase: 'https://github.com/AntiTomChickenProject/blob/main',
   footer: {
     text: (
       <span>
         版权所有 © {new Date().getFullYear()} { }
-        <a href="https://wsmcs.top" target="_blank">
-          反张淏轩计划 (Anti Tom_Chicken Project)
+        <a href="https://www.wsmcs.top" target="_blank">
+          反Tom_Chicken计划 (Anti Tom_Chicken Project)
         </a>
       </span>
     )
